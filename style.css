@@ -7,3 +7,35 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  background: #4070f4;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container Div */
+.container {
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  background: #fff;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.container .skill-box {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.skill-box .skill-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0, 0, 0, 0.1);
+}
